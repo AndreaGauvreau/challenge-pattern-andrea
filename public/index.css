@@ -1,0 +1,212 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #05142110;
+}
+*{
+    font-family: Poppins;
+}
+
+header, footer {
+    display: flex;
+    background-color: #051421;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    width: 100%;
+    min-height: 80px;
+}
+
+footer{
+    justify-content: center ;
+
+}
+
+.profilstart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffffff20;
+    border-radius: 5px;
+    border: 1px solid #ffffff20;
+    color: white;
+    transition: 0.5s;}
+
+    .profilstart:hover{
+        background-color: #ffffff50;
+        transition: 0.5s;
+    }
+
+
+
+
+
+header ul{
+    list-style: none;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    transition: 0.5s;
+    margin-right: 20px;
+}
+header li{    
+    color: #ffffff80;
+    transition: 0.5s;
+}
+header li:hover{    
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+header ul:hover{
+    color: #ffffff;
+    transition: 0.5s;
+    gap: 22px;
+    transition: 0.5s;
+}
+
+
+.profilstart img{
+width: 40px;
+height: 40px;
+border-radius: 50%;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    min-height: 60vh;
+}
+
+form, .mynewpersona{
+    padding: 30px;
+    margin: 20px; 
+    background-color: #00000020;
+    border-radius: 5px;
+    border: 1px solid #00000020;
+    color: #051421;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+form input, textarea{
+    border-radius: 5px;
+    border: 1px solid #00000020;
+    padding: 10px
+}
+h1{
+    padding: 0px;
+    margin: 0px;
+}
+
+#leftjoke {
+    width: 30%
+}
+#leftjoke img {
+    width: 100%;
+    border-radius:30px ;
+}
+#rightjoke {
+    width: 70%
+}
+
+#rightjoke button{
+border: none;
+background-color: #05142190;
+padding: 20px;
+color: white;
+border-radius: 5px;
+cursor: pointer;
+transition: 0.5s;
+}
+#rightjoke button:hover{
+    background-color: #051421;
+    transition: 0.5s;
+}
+#rightjoke button:active{
+    background-color: #398ffc;
+    transition: 0.1s;
+}
+
+div #encadreblague {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+border-radius: 30px;
+max-width: 1000px;
+padding: 20px;
+gap :20px;
+}
+
+#personasection{
+    display: flex;
+    flex-direction: row;
+}
+
+.mynewpersona img {
+    width:50px;
+    border-radius:10px
+}
+
+.mynewpersona {
+    min-width: 300px;
+    max-width: 300px
+
+}
+
+.profil-generator{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    padding: 10px;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 10px;
+    gap: 10px
+}
+
+
+
+form button, .profil-generator button{
+    padding: 10px;
+    border: none;
+    color: white;
+    transition:0.5s ;
+    border-radius: 10px;
+    background: linear-gradient(270deg, #011c25,#04303f,#011c25,#022936,#011c25);
+    animation: animate 20s linear infinite;
+     background-size: 1500%;
+     cursor: pointer;
+     box-shadow: 0px 0px 0px 0px #011c25;
+
+}
+form button:hover , .profil-generator button:hover{
+    transition:0.5s ;
+    background: linear-gradient(270deg, #39c7fc, #d039fc, #fc3939, #fcc439, #39c7fc);
+    animation: animate 20s linear infinite;
+    background-size: 1500%;
+    box-shadow: 5px 5px 0px 0px #011c25;
+
+}
+
+
+
+@keyframes animate {
+    0%{
+        background-position: 0 0;
+    }
+    100%{
+        background-position: 700% 0;
+    }
+}
